@@ -1,0 +1,3 @@
+INTEGER x
+READ x, "Input x"
+PRINT x

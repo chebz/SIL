@@ -1,0 +1,3 @@
+println "This program calculates hourly salary with overtime"
+PRINT "for any full hour over 40. Overtime is 1.5"
+PRINT " test line #2 2"

@@ -1,0 +1,16 @@
+FUNCTION Main()
+INTEGER x
+INTEGER y
+LET x = 0
+WHILE (x<3) | (x=3)
+PRINTLN "x=" + x
+PRINTLN ""
+LET x = x+1
+LET y = 3
+WHILE (y>0) | (y=0)
+PRINTLN "y=" + y
+LET y = y-1
+WEND
+PRINTLN ""
+WEND
+ENDFUNCTION

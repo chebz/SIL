@@ -1,0 +1,13 @@
+SILprogram
+FUNCTION Main()
+INTEGER x
+LET x=(1+3)*5
+PRINTLN "x="+x
+INTEGER y
+LET y=((x+1) * 2) / 7
+PRINTLN "y="+y
+INTEGER z
+LET z= x * y+10 /2 - 3 * 24
+PRINTLN "z="+z
+PRINTLN "Mike is the shit!"
+ENDFUNCTION

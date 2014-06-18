@@ -1,0 +1,10 @@
+INTEGER x
+INTEGER y
+FOR x = 5, x < (3 + 2) * 4, x = x + 2
+PRINT "x="+x
+PRINT ""
+FOR y = 1, (y < 8) | (y=8), y = y * 2
+PRINT "y="+y
+NEXT
+PRINT ""
+NEXT

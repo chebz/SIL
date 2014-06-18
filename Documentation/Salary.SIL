@@ -1,0 +1,24 @@
+Salary
+FUNCTION Main()
+PRINTLN "This program calculates hourly salary with overtime"
+PRINTLN "for any full hour over 40. Overtime is 1.5"
+INTEGER rate
+INTEGER hours
+INTEGER pay
+PRINTLN "Enter number of hours:"
+READ hours,"Input hours"
+PRINTLN "Enter rate of pay:"
+READ rate,"Input rate"
+IF hours > 40 THEN 
+   LET pay = 40 * rate + ((hours - 40) * rate * 3 / 2)
+ENDIF
+IF hours = 40 THEN
+   LET pay = 40 * rate
+ENDIF
+IF hours < 40 THEN
+   LET pay = hours * rate
+ENDIF
+PRINT "Pay for "+ hours
+PRINT " at $"+ rate
+PRINT " per hour is $"+pay
+ENDFUNCTION

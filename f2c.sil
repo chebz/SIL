@@ -1,0 +1,26 @@
+f2c.sil
+FUNCTION Main()
+PRINTLN "This program converts a Fahrenheit temperature to"
+PRINTLN "its Celsius equivalent or Celsius to Fahrenheit"
+PRINTLN ""
+PRINT "Enter 0 for Fahrenheit to Celsius, 1 for Celsius to Fahrenheit:"
+INTEGER t
+READ t, "Enter Temperature:"
+INTEGER pick
+READ pick, "pick"
+INTEGER newTemp
+IF pick = 0 THEN
+LET newTemp = (t-32)*5/9
+PRINTLN ""
+PRINT "Fahrenheit "+t
+PRINT " = "+newTemp
+PRINT " Celsius"
+ENDIF
+IF pick = 1 THEN
+LET newTemp = t*9/5+32
+PRINTLN ""
+PRINT "Celsius "+ t 
+PRINT " = "+newTemp
+PRINT " Fahrenheit"
+ENDIF
+ENDFUNCTION

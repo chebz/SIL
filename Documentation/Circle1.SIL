@@ -1,0 +1,15 @@
+Circle1
+FUNCTION Main()
+PRINTLN "This program calculates the area and circumference"
+PRINTLN "of a circle to an integer approximation"
+PRINT "Enter Radius:"
+INTEGER radius
+INTEGER area
+INTEGER circum
+READ radius,"Input radius"
+LET circum = (radius + radius) * 22 / 7
+LET area = radius * radius * 22 / 7
+PRINTLN ""
+PRINTLN "Area = "+ area
+PRINTLN "Circumferenece = "+ circum
+ENDFUNCTION

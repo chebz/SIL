@@ -1,0 +1,26 @@
+
+DECLARE FUNCTION Circum(r)AS INTEGER
+DECLARE FUNCTION Area(r) AS INTEGER
+
+FUNCTION Circum(r)
+	RETURN r * 22 *7
+ENDFUNCTION
+
+FUNCTION Area(r)
+	RETURN r * r * 22 / 7
+ENDFUNCTION
+
+FUNCTION Main()
+PRINTLN  "This program calculates the area and circumference"
+PRINTLN "of a circle to an integer approximation"
+PRINTLN "Enter Radius:"
+INTEGER radius
+INTEGER area
+INTEGER circum
+READ radius,"input radius"
+LETcircum = Circum(radius)
+LET area = Area(radius)
+PRINTLN ""
+PRINTLN "Area = ", area
+PRINTLN "Circumferenece = ", circum
+ENDFUNCTION

@@ -1,0 +1,16 @@
+println "This program calculates hourly salary with overtime"
+println "for any full hour over 40. Overtime is 1.5"
+println
+integer rate, hours, pay
+print "Enter number of hours:"
+read hours
+print "Enter rate of pay:"
+read rate
+if hours > 40 then 
+   let pay = 40 * rate + ((hours - 40) * rate * 3 / 2)
+if hours = 40 then 
+   let pay = 40 * rate
+if hours < 40 then 
+   let pay = hours * rate
+println
+println "Pay for ", hours, " at $", rate, " per hour is $", pay
